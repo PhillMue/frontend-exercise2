@@ -4,3 +4,35 @@ body{
 h1{
     font-size: 64px;
 }
+.index{
+    z-index: 1;
+    position: relative;
+}
+.columns h1{
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    color: white;
+    line-height: 85px;
+    margin-top: -620px;
+}
+.columns p{
+    margin-top: -10px;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.second{
+    margin-top: 690px;
+}
+.second h1,
+.second p{
+    line-height: 30px;
+    color: #383838;
+}
+.third{
+    margin-top: 5oopx;
+    text-align: center;
+    line-height: inherit;
+}
