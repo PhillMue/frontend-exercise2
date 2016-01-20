@@ -26,13 +26,22 @@ h1{
 .second{
     margin-top: 690px;
 }
-.second h1,
+.second h3{
+    text-align: center;
+    font-size: 60px;
+    margin-top: -120px;
+    margin-bottom: 40px;
+}
 .second p{
     line-height: 30px;
     color: #383838;
 }
 .third{
-    margin-top: 5oopx;
+    margin-top: 500px;
     text-align: center;
     line-height: inherit;
+    
+}
+.fourth{
+    
 }
