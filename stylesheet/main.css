@@ -1,14 +1,17 @@
-body{
-  font-family: 'Abril Fatface','Raleway'; 
+body {
+    font-family: 'Abril Fatface', 'Raleway';
 }
-h1{
+
+h1 {
     font-size: 64px;
 }
-.index{
+
+.index {
     z-index: 1;
     position: relative;
 }
-.columns h1{
+
+.columns h1 {
     z-index: 3;
     position: relative;
     text-align: center;
@@ -16,32 +19,39 @@ h1{
     line-height: 85px;
     margin-top: -620px;
 }
-.columns p{
+
+.columns p {
     margin-top: -10px;
     z-index: 3;
     position: relative;
     text-align: center;
     color: white;
 }
-.second{
-    margin-top: 690px;
+
+.second {
+    margin-top: 300px;
+    background-color: aquamarine;
+    font-size: 20px;
 }
-.second h3{
+
+.second h3 {
     text-align: center;
-    font-size: 60px;
-    margin-top: -120px;
+    font-size: 40px;
+    margin-top: -60px;
     margin-bottom: 40px;
 }
-.second p{
+
+.second p {
     line-height: 30px;
     color: #383838;
 }
-.third{
+
+.third {
     margin-top: 500px;
     text-align: center;
     line-height: inherit;
-    
 }
-.fourth{
-    
+
+.fourth p {
+    color: #000;
 }
