@@ -63,26 +63,38 @@ section {
     background: url('../assets/assets/s_image.jpg');
 }
 
-#contact {
-    background: url('../assets/assets/c_image.jpg');
-    text-align: center;
+
+/*contact*/
+
+.contactz{
+    background-image: url('../assets/assets/c_image.jpg');
+    background-size: 100% 100%;
+    background-repeat:round;
+/*          background: url(assets/assets/s_image.jpg) no-repeat center center fixed;*/
+/*
+              -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+/*            backface-visibility: white;*/
+            color:white;
+    width: 100%;
+/*    height: auto;*/
+        text-align: center;
+    padding: 5% 30%;
+    clear: both;
+    height: 60%;
+    
+}
+form{
+    background-image: transparent;
+    clear: both;
 }
 
-#contact input {
-    height: 30px;
-    background-color: rgba(255, 255, 255, .2);
-    border-radius: 10px;
-}
 
-#contact table tbody {
-    padding-left: 20%;
-    background-color: transparent !important;
-}
 
-#contact textarea {
-    background-color: rgba(255, 255, 255, .2);
-    border-radius: 10px;
-}
+
 
 .fourth p {
     color: #000;
